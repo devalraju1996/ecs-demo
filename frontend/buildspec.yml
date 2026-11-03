@@ -4,7 +4,7 @@ env:
   variables:
     AWS_REGION: us-east-1
     AWS_ACCOUNT_ID: "700017004782"
-    REPO_NAME: ecs-demo-frontend       # your ECR repo name
+    REPO_NAME: frontend       # your ECR repo name
     CONTAINER_NAME: frontend           # must match container name in ECS task definition
 
 phases:
